@@ -1,0 +1,64 @@
+<mxfile host="65bd71144e">
+    <diagram id="_TnCR1vTCXAGto8nSYuO" name="Page-1">
+        <mxGraphModel dx="875" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="13" style="edgeStyle=none;html=1;entryX=-0.007;entryY=0.671;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;entryX=0.007;entryY=0.364;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Gerant 1" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#f5f5f5;verticalAlign=top;align=center;pointerEvents=1;shape=mxgraph.cisco_safe.design.actor_2;fontFamily=Georgia;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="250" width="30" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="GESTION DES CANDIDATS" style="swimlane;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="80" width="400" height="430" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;font face=&quot;Georgia&quot;&gt;AJOUTER&amp;nbsp;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+                    <mxGeometry x="20" y="60" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;font face=&quot;Georgia&quot;&gt;Connexion&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+                    <mxGeometry x="190" y="340" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;font face=&quot;Georgia&quot;&gt;SUPPRIMMER&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+                    <mxGeometry x="20" y="263.5" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;font face=&quot;Georgia&quot;&gt;MODIFIER&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+                    <mxGeometry x="20" y="160" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;fontFamily=Georgia;" edge="1" parent="3" source="6" target="5">
+                    <mxGeometry x="0.4628" y="21" width="160" relative="1" as="geometry">
+                        <mxPoint x="190" y="180" as="sourcePoint"/>
+                        <mxPoint x="350" y="180" as="targetPoint"/>
+                        <mxPoint x="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;fontFamily=Georgia;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.714;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="3" source="7" target="5">
+                    <mxGeometry x="-0.5012" y="-22" width="160" relative="1" as="geometry">
+                        <mxPoint x="360" y="225" as="sourcePoint"/>
+                        <mxPoint x="320.3770920234865" y="303.1122552140919" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                        <Array as="points">
+                            <mxPoint x="260" y="225"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;fontFamily=Georgia;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="3" source="4" target="5">
+                    <mxGeometry x="-0.7681" y="-25" width="160" relative="1" as="geometry">
+                        <mxPoint x="360" y="95" as="sourcePoint"/>
+                        <mxPoint x="345" y="391" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                        <Array as="points">
+                            <mxPoint x="260" y="95"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
